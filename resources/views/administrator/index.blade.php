@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('header')
-    LSF Admin Dash
+    LSF Arrow Dental
 @endsection
 
 @section('content')

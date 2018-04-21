@@ -34,33 +34,6 @@
             <li><a href="{{ url('new-user') }}"><i class="fa fa-circle-o"></i> Add New</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-copy"></i>
-            <span>Pages</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="{{ url('all-pages') }}"><i class="fa fa-circle-o"></i> All Pages</a></li>
-            <li><a href="{{ url('new-page') }}"><i class="fa fa-circle-o"></i> Add New</a></li>
-          </ul>
-        </li>
-
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-align-justify"></i>
-            <span>Menu</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Add Menu</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Edit Menu</a></li>
-          </ul>
-        </li>
         
         <li class="treeview">
           <a href="#">
@@ -79,44 +52,17 @@
         
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-file"></i> <span>Publications</span>
+            <i class="fa fa-file"></i> <span>Appointments</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ url('/show_publications') }}"><i class="fa fa-circle-o"></i> All Publications</a></li>
-            <li><a href="{{ url('/create_publications') }}"><i class="fa fa-circle-o"></i> Add New</a></li>
+            <li><a href="{{ url('/all-appointments') }}"><i class="fa fa-circle-o"></i> All Appointments</a></li>
+            <li><a href="{{ url('/create-appointments') }}"><i class="fa fa-circle-o"></i> Add New</a></li>
           </ul>
         </li>
 
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-briefcase"></i>
-            <span>Tenders</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="{{ url('/all-tenders') }}"><i class="fa fa-circle-o"></i> All Tenders</a></li>
-            <li><a href="{{ url('/new-tender') }}"><i class="fa fa-circle-o"></i> Add New</a></li>
-          </ul>
-        </li>
-
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dollar"></i>
-            <span>Grants</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="{{ url('/show_grants') }}"><i class="fa fa-circle-o"></i> All Grants</a></li>
-            <li><a href="{{ url('/create_grant') }}"><i class="fa fa-circle-o"></i> Add New</a></li>
-          </ul>
-        </li>
 
         <li class="header">LABELS</li>
         <li>

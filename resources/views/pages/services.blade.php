@@ -7,20 +7,295 @@
 
 @section ('content')
 
-
-	<section id="about-page">
+	<div class="about-jumbotron">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10 col-sm-10">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam velit fugit hic ipsum excepturi incidunt tenetur mollitia saepe consequatur veritatis. Rerum dolorum possimus voluptatum aut dignissimos cupiditate error a sed quo, at, eaque quam repellat temporibus officiis quia saepe eligendi? </p><br>
+			<div class="col-xs-12 col-sm-12 col-md-9">
+				<h3>Arrow Dental / Services</h3>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eum quibusdam doloribus amet, sed veritatis ad perferendis modi, labore nobis in, quaerat distinctio obcaecati nemo molestiae repellat sequi. Rerum possimus harum provident vel, voluptate cupiditate nemo, culpa quas eum placeat? </p><br>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste incidunt ipsam. Provident, cum fuga ab harum autem beatae tempore doloribus, quibusdam dolorem maiores quia quaerat rem suscipit velit aut sed. Inventore neque repellendus, facere aliquam, esse blanditiis harum velit. </p>
+	<section id="services">
+		<div class="container">
+			
+
+			<div class="blog">
+				<!-- <div class="row">	
+					<div class="col-md-6">
+						<h1 class="small">--- services</h1>
+						<h1 class="blog-title">What we Offer</h1>
+					</div>
+				</div> -->
+
+
+				<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">	
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_1_item_1_head" data-toggle="collapse" href="#m_accordion_1_item_1_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Crowning</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_1_item_1_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repellendus laborum obcaecati, dolores nihil neque maxime! Adipisci eligendi suscipit, quas, distinctio doloribus a tempore harum, laboriosam unde rem magnam quis.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
 				</div>
 
+				<div class="col-xs-12 col-sm-4 col-md-4 ">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_2_item_2_head" data-toggle="collapse" href="#m_accordion_2_item_2_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Root Canal</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_2_item_2_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione excepturi quaerat sit nesciunt, dolorum architecto eos dicta corrupti, itaque eveniet accusantium unde eligendi dolore nemo quos tempore molestiae laudantium impedit!
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+						<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_3_item_3_head" data-toggle="collapse" href="#m_accordion_3_item_3_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Fillings</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_3_item_3_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam laudantium reprehenderit non, sit quia accusantium ea. Voluptas fugit consequatur inventore aliquid maxime explicabo sint dolorum adipisci ad, delectus vitae libero.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>						
+					</div>
+				</div>
+
+				
 			</div><br><br>
+
+
+			<div class="row">
+				
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_4_item_4_head" data-toggle="collapse" href="#m_accordion_4_item_4_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Cosmetic Dentistry</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_4_item_4_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa doloribus a nobis eveniet inventore iusto, natus quae, dignissimos. Quam blanditiis distinctio, nulla magnam hic cupiditate, et aspernatur ipsam laudantium deserunt.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 ">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_5_item_5_head" data-toggle="collapse" href="#m_accordion_5_item_5_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Invisalign</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_5_item_5_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptate error numquam harum vitae atque porro ad aspernatur in delectus autem minima ratione quia quo, odit excepturi placeat repellendus eligendi.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_6_item_6_head" data-toggle="collapse" href="#m_accordion_6_item_6_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Porcelain Veneers</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_6_item_6_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus natus magnam accusamus, neque inventore, consequuntur cum dolor fuga enim obcaecati quod, reiciendis esse nisi atque at a delectus aliquam vitae.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+			</div><br><br>
+
+
+			<div class="row">
+				
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_7_head" data-toggle="collapse" href="#m_accordion_7_item_7_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Dental Implants</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_7_item_7_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores optio reiciendis voluptates in veniam doloremque vel accusamus modi ducimus, debitis amet? Placeat tempore, asperiores ab ea molestias perspiciatis vero quo.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 ">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_8_item_8_head" data-toggle="collapse" href="#m_accordion_8_item_8_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Dental Bridging</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_8_item_8_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum assumenda ad ut quas quam necessitatibus recusandae, perferendis autem officia nostrum corporis iste id illo, placeat facilis, nemo ex tenetur doloremque!
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class=" text-center">
+						<img src="images/asset5.jpeg" alt="">
+							<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
+								<!--begin::Item-->
+								<div class="m-accordion__item">
+									<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_9_item_9_head" data-toggle="collapse" href="#m_accordion_9_item_9_body" aria-expanded="false">
+										<span class="m-accordion__item-icon">
+											<i class="fa flaticon-user-ok"></i>
+										</span>
+										<span class="m-accordion__item-title">
+											<h4>Teeth Whitening</h4>
+										</span>
+										<span class="m-accordion__item-mode"></span>
+									</div>
+									<div class="m-accordion__item-body collapse" id="m_accordion_9_item_9_body" role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1" style="">
+										<div class="m-accordion__item-content">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates incidunt labore distinctio atque dignissimos recusandae. Illum quae nihil maiores, eveniet minus beatae, ea perferendis magni eligendi ratione. Magnam, distinctio, sequi.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--end::Item--> 
+							</div>
+					</div>
+				</div>
+			</div><br><br>
+			</div>
 		</div>
 	</section>
 

@@ -35,6 +35,9 @@
 
   <link rel="stylesheet" href="../admin/bower_components/select2/dist/css/select2.min.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
+    <script src="https://unpkg.com/flatpickr"></script>
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -52,9 +55,9 @@
     <!-- Logo -->
     <a href="{{ url('admin-dash') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>L</b>SF</span>
+      <span class="logo-mini"><b>A</b>DC</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b></b>LSF</span>
+      <span class="logo-lg"><b></b>ADC</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">

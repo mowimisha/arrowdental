@@ -41,7 +41,7 @@
 
                             <thead>
                                 <tr>
-                                    <th>Name</th>
+                                    <th>Username</th>
                                     <th>Firstname</th>
                                     <th>Lastname</th>
                                     <th>email</th>
@@ -67,9 +67,11 @@
                             </tbody>
                           <tfoot>
                             <tr>
-                                <th>name</th>
+                                <th>Username</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
                                 <th>email</th>
-                                <th>role</th>
+                                <th>Role</th>
                             </tr>
 
                             <tr>

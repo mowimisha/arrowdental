@@ -9,6 +9,7 @@ use App\Tender;
 use App\Grant;
 use App\Publication;
 use App\User;
+use App\Appointment;
 use Response;
 use ZipArchive;
 use Redirect;
@@ -302,11 +303,11 @@ class BlogController extends Controller
         
     }
 
-    public function all_tenders(Request $request)
+    public function all_appointments(Request $request)
     {
         //
         return View('posts.show_tender')
-            ->with('tenders', Tender::orderBy('created_at', 'desc')->paginate(10));
+            ->with('appointments', Appointment::orderBy('created_at', 'desc')->paginate(10));
     }
 
 
@@ -320,7 +321,7 @@ class BlogController extends Controller
      *
      * @return Response
      */
-    public function create_tender(Request $request)
+    public function create_appointment(Request $request)
     {
         // 
         if($request->user()->can_post())
@@ -340,28 +341,22 @@ class BlogController extends Controller
      *
      * @return Response
      */
-    public function store_tender(Request $request)
+    public function store_appointment(Request $request)
     {
-        $tender = new Tender();
-        $tender->title = $request->get('title');
-
-        $file = Input::file('filename');
-        $file_name = $file->getClientOriginalName();
-        $file_size = round($file->getSize() / 1024);
-        $file_ex = $file->getClientOriginalExtension();
-        $file_mime = $file->getMimeType();
-
-        if (!in_array($file_ex, array('zip', 'rar', 'tar'))) return Redirect::to('/')->withErrors('Invalid image extension we just allow ZIP, RAR, TAR');
-
-         $newname = $file_name;
-         $file->move(public_path(). '/uploads/tenders', $newname);        
-          $tender->filename = $file_name;
-          $tender->mime = $file_mime;
+        $appointment = new Appointment();           
+        
+        $appointment->procedure = $request['procedure'];
+        $appointment->name = $request['name'];
+        $appointment->phone = $request['phone'];
+        $appointment->email = $request['email'];
+        $appointment->date = $request['date'];
+        $appointment->notes = $request['notes'];
+        $appointment->save();
 
 
-        $tender->save();
-        \Session::flash('flash_message','Tender Posted Successfully.');
-        return back();
+        \Session::flash('flash_message','Appointment Booked Successfully.'); //<--FLASH MESSAGE
+
+            return back();
     }
 
 

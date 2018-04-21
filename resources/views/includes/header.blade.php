@@ -90,10 +90,25 @@
                   
             <li>
               <a href="{{ url('/appointments') }}" type="button" class="btn btn-primary app_btn">Book Appointment</a>
-            </li>      
+            </li> &nbsp;&nbsp;
+
+            <a class="socials">
+              <i class="fa fa-2x fa-facebook"></i>
+            </a>
+
+            <a class="socials">
+              <i class="fa fa-2x fa-twitter"></i>
+            </a>
+
+            <a class="socials">
+              <i class="fa fa-2x fa-instagram"></i>
+            </a>
+
+            <a class="socials">
+              <i class="fa fa-2x fa-youtube-play"></i>
+            </a>
           
           </ul>
-
         </div><!--/.nav-collapse -->
       </div>
 

@@ -101,34 +101,15 @@ Route::group(['/middleware' => ['auth', 'web']], function()
 	Route::get('/delete-user/{id}','PageController@destroy');
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	//BLOG ADMIN ROUTES
 	// show new post form
 	Route::get('/new-post','BlogController@create');
 
 	// show new tender form
-	Route::get('/new-tender','BlogController@create_tender');
+Route::get('/new-appointment','BlogController@create_appointment');
 
 	// save new tender
-	Route::post('/new-tender','BlogController@store_tender');
+Route::post('/new-appointment','BlogController@store_appointment');
 	
 	// save new post
 	Route::post('/new-post','BlogController@store');
@@ -146,7 +127,7 @@ Route::group(['/middleware' => ['auth', 'web']], function()
 	Route::get('my-all-posts','UserController@user_posts_all');
 
 	// display user's all posts
-	Route::get('all-tenders','BlogController@all_tenders');
+	Route::get('all-appointments','BlogController@all_appointments');
 
 	// display user's drafts
 	Route::get('my-drafts','UserController@user_posts_draft');

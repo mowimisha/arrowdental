@@ -120,12 +120,19 @@ nav ul li .main-nav {
   color: #f47c29 !important;
  }
 
+ nav i {
+  color: #000 !important;
+  margin: 15px 0 0 0 !important;
+ }
+
 
 nav img{
   width:20px;
   height:40px;
   padding: 5px 0 0 0;
  }
+
+
 
 /* 
  .jumbotron {
@@ -173,8 +180,8 @@ nav img{
 
 
  .jumbotron .btn {
- 	background: #951D5B;
- 	border: 2px solid #951D5B;
+ 	background: #f47c29;
+ 	border: 2px solid #f47c29;
  	border-radius: 5px;
  	padding: 8px 25px 8px 25px;
  	margin: 0 8px 0 8px;
@@ -183,7 +190,7 @@ nav img{
 
  .jumbotron .btn:hover {
    	background: #f7f7f7;
- 	  color: #951D5B;
+ 	  color: #f47c29;
  	  border: none;
  	  font-weight: 600;
  }
@@ -191,6 +198,7 @@ nav img{
  .jumbotron span {
     color: #fff !important;
  } */
+
 
 
 #main-carousel-id {
@@ -290,12 +298,12 @@ nav img{
 	padding: 50px 25px 20px 25px !important;
 	background-color: #E3E0E0; 
 	height: 300px;
-	border-top: 4px solid #951D5B;
+	border-top: 4px solid #f47c29;
 	border: 1px 1px 1px;
  }
 
  #information h4 {
- 	color: #951D5B ;
+ 	color: #f47c29 ;
  	font-weight: 600;
  	padding-bottom: 10px;
  }
@@ -386,7 +394,7 @@ nav img{
  }
 
  #testimonials .btn {
- 	background: #951D5B;
+ 	background: #f47c29;
  	border: none;
  	padding: 7px 25px 7px 25px;
  	border-radius: 5px;
@@ -394,7 +402,7 @@ nav img{
 
  #location {
  	padding: 30px 0 30px 0;
- 	background: -webkit-linear-gradient(56deg,#951D5B 0%,#951D5B 100%)!important;
+ 	background: -webkit-linear-gradient(56deg,#f47c29 0%,#f47c29 100%)!important;
  }
 
  #location .panel {
@@ -535,12 +543,12 @@ nav img{
   padding: 50px 25px 20px 25px !important;
   background-color: #E3E0E0; 
   height: 300px;
-  border-top: 4px solid #951D5B;
+  border-top: 4px solid #f47c29;
   border: 1px 1px 1px;
   }
 
   #gridGgallery h4 {
-    color: #951D5B ;
+    color: #f47c29 ;
     font-weight: 600;
     padding-bottom: 10px;
   }
@@ -1058,7 +1066,7 @@ nav img{
 }
 
 #blog .meta-tags span {
-  color: #951D5B;
+  color: #f47c29;
   font-weight: 600;
 }
 
@@ -1073,7 +1081,7 @@ nav img{
 }
 
 #blog .meta-tags a {
-  background: #951D5B;
+  background: #f47c29;
   margin: 30px 0 0 0;
   color: #fff;
   padding: 8px 30px 8px 30px;
@@ -1104,7 +1112,7 @@ nav img{
 }
 
 #blog .panel .panel-heading {
-  background: #951D5B;
+  background: #f47c29;
   color: #fff;
 }
 
@@ -1160,20 +1168,32 @@ nav img{
 
  /************* Contact Page ******************/
  #contact-page {
- 	padding: 200px 0 60px 0;
+ 	padding: 50px 0 60px 0;
  }
 
  #contact-page .fa-stack, .fa {
- 	color: #951D5B;
+ 	color: #f47c29;
  }
 
  #contact-page button {
- 	background: #951D5B;
+ 	background: #f47c29;
  	border: none;
  }
 
  #contact-page .row {
  	padding: 30px 0 30px 0;
+ }
+
+ #contact-page .about_btn {
+    background: #f47c29 !important
+ }
+
+ #contact-page .about_btn:hover {
+    background: #f47c29 !important
+ }
+
+ #contact-page i {
+
  }
 
  #publications-page {
@@ -1227,7 +1247,7 @@ nav img{
  }
 
  #about-page {
-  padding: 200px 0 100px 0 !important;
+  padding: 100px 0 100px 0 !important;
   background: #fff !important;
  }
 
@@ -1240,7 +1260,7 @@ nav img{
 	padding: 20px 25px 50px 25px;
 	background-color: #E3E0E0; 
 	height: 250px;
-	border-top: 4px solid #951D5B;
+	border-top: 4px solid #f47c29;
 	border: 1px 1px 1px;
  }
 
@@ -1261,13 +1281,18 @@ nav img{
   text-align-last: left;
  }
 
+ #about-page img {
+  width: 550px;
+  height: 350px;
+ }
+
  .about-jumbotron {
   margin: 60px 0 0 0;
       background: linear-gradient( rgba(29, 19, 43, 0.6), 
                                    rgba(29, 19, 43, 0.6)),
-                                   url("../images/aboutpage.JPG");
+                                   url("");
       
-      height: 300px;
+      height: 150px;
       background-size: cover;
       -moz-background-size:cover;
       -webkit-background-size:cover;
@@ -1275,13 +1300,12 @@ nav img{
  }
 
  .about-jumbotron .container {
-      padding: 100px 0 0 0;
+      padding: 80px 0 0 0;
  }
 
- .about-jumbotron img {
-      width: 200px;
-      height: 100px;
- }
+.about-jumbotron h3 {
+  color: #fff;
+}
 
   .services-jumbotron {
     margin: 60px 0 0 0;

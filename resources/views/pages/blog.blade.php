@@ -6,21 +6,56 @@
 @stop
 
 @section ('content')
+	
+	<div class="about-jumbotron">
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-9">
+				<h3>Arrow Dental / Blog</h3>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
 
-
-	<section id="about-page">
+	<section id="blog">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10 col-sm-10">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti voluptates natus ducimus sapiente qui iste mollitia atque, quasi repellat omnis velit, odio laborum vel minus nihil, praesentium aperiam error ipsam. Deserunt quam tempore, eius laborum explicabo labore voluptas ab? </p><br>
+				
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse fugit architecto assumenda velit facere, officiis repellendus non temporibus voluptatibus odit, sint autem porro dicta, voluptate vel iure sed possimus. At, error alias quis incidunt ea soluta, reprehenderit nulla magni molestiae! </p><br>
+				<div class="blog">
+					<!-- <div class="row">	
+						<div class="col-md-6">
+							<h1 class="small">--- Blog</h1>
+							<h1 class="blog-title">Latest Posts</h1>
+						</div>
+					</div> -->
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione obcaecati doloribus cupiditate, nisi magni eligendi! Enim ad, a sapiente nobis. Soluta pariatur amet tenetur, architecto debitis in aliquid aliquam optio dolorum provident sint alias nihil dicta, sequi, voluptates dolor. Nobis!</p>
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="post">
+								<p class="date"><?php echo date("M j Y"); ?></p>
+								<p class="title"><a href="#">Lorem ipsum </a></p>
+							</div>
+							<img src="../images/asset5.jpeg" alt="">
+
+						</div>
+						<div class="col-md-4">
+							<div class="post">
+								<p class="date"><?php echo date("M j Y"); ?></p>
+								<p class="title"><a href="#">Lorem ipsum </a></p>
+							</div>
+							<img src="../images/asset5.jpeg" alt="">
+						</div>
+						<div class="col-md-4">
+							<div class="post">
+								<p class="date"><?php echo date("M j Y"); ?></p>
+								<p class="title"><a href="#">Lorem ipsum </a></p>
+							</div>
+							<img src="../images/asset5.jpeg" alt="">
+						</div>
+					</div>
 				</div>
-
-			</div><br><br>
+			</div>
 		</div>
 	</section>
 

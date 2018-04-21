@@ -7,20 +7,55 @@
 
 @section ('content')
 
+	<div class="about-jumbotron">
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-9">
+				<h3>Arrow Dental / About</h3>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+
 
 	<section id="about-page">
 		<div class="container">
+		
 			<div class="row">
 				<div class="col-md-1"></div>
-				<div class="col-md-10 col-sm-10">
+				<div class="col-md-6 col-sm-10">
+					<h3>Introduction</h3><br>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci perferendis officiis non quo suscipit fugit sed debitis iusto deleniti. Perferendis enim quam officia consectetur deleniti repudiandae. Corrupti, sit quod cupiditate maxime consequuntur officia. Sint iusto corrupti tempore dolorum, eveniet suscipit.</p><br>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deserunt corporis aperiam, eaque dolorem consequatur dolor perferendis itaque ullam necessitatibus impedit, maiores quo repellendus repellat quasi! Dolorem, ipsa doloribus nobis tempore, non deserunt eos ipsam nesciunt odit, maiores est atque! </p><br>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates doloremque id vitae reprehenderit voluptas quos ipsa ea, dolorum reiciendis voluptatibus dolor a eos amet incidunt rerum cumque doloribus. Nemo ipsum tempora, at dignissimos enim nobis eaque dolor inventore eos expedita! </p>
+				</div>
+				<div class="col-md-5">
+					<img src="../images/asset5.jpeg" alt="">
 				</div>
 
 			</div><br><br>
+			
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<h3>Our Core Values</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-3">
+					<h3>Core Value 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, neque.</p>
+				</div>
+				<div class="col-md-3">
+					<h3>Core Value 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, ipsum.</p>
+				</div>
+				<div class="col-md-3">
+					<h3>Core Value 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, optio.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 

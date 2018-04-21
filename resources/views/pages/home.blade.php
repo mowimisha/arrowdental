@@ -1,4 +1,4 @@
-@extends('layouts.master-layout')
+	@extends('layouts.master-layout')
 
 @section ('header')
 	
@@ -590,31 +590,15 @@
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<form action="/contact" method="POST" role="form">
-						{{ csrf_field() }}
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="">Name</label>
-                                    <input type="text" class="form-control" id="" name="name" required="required">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="">Email</label>
-                                    <input type="email" class="form-control" id="" name="email" required="required">
-                                </div>
-                            </div>
-                        </div>
+					@if(Session::has('flash_message'))
+                         <div class="alert alert-success"><em> {!! session('flash_message') !!}</em></div>
+                     @endif
 
-                        <div class="form-group">
-                            <label for="">Phone</label>
-                            <input type="text" class="form-control" id="" name="phone" required="required">
-                        </div>
-                    
-                        <div class="form-group">
-                        	<label for="">Procedure</label>
-                        	<select name="procedure" id="input" class="form-control">
+					<form action="/appointments" method="POST" role="form">
+       					{{ csrf_field() }}
+       					<div class="col-xs-12 col-sm-6 col-md-12">
+       						<div class="form-group">
+	                            <select name="procedure" id="input" class="form-control">
 	                              <option value="">-- Select Procedure --</option>
 	                              <option value="Consultation">Consultation</option>
 	                              <option value="Teeth Whitening">Teeth Whitening</option>
@@ -626,22 +610,41 @@
 	                              <option value="Root Canal Therapy">Root Canal Therepy</option>
 	                              <option value="Fillings">Fillings</option>
 	                            </select>
-                        </div><br>
+                            </div><br>
 
-                        <div class="form-group">
-                          <label for="">Date and Ti</label><br>
-                            <input class="flatpickr" name="appointment_date" type="text" placeholder="Select Date...">
-                            <script>
-                                flatpickr(".flatpickr", {
-                                    enableTime: true,
-                                    altInput: true,
-                                    altFormat: "F j, Y h:i K",
-                                });
-                            </script>
-                        </div>
-                    
-                        <a href="#" target="_blank" class="btn btn-primary about_btn">&nbsp;&nbsp;Book Apppointment&nbsp;&nbsp;</a>
-                    </form>
+       			            <div class="form-group">
+       			                <input type="text" class="form-control inputs" id="" placeholder="First and last name" name="name" >
+       			            </div><br>
+       					
+       					    <div class="form-group">
+       					        <input type="text" class="form-control inputs" id="" placeholder="Phone" name="phone">
+       					    </div><br>
+
+       					    <div class="form-group">
+       					        <input type="email" class="form-control inputs" id="" placeholder="Email" name="email">
+       					    </div><br>
+
+       					    <div class="form-group">
+       					      <label for="">I am available on(pick a date)</label>
+       					        <input class="flatpickr" name="date" type="text" placeholder="Select Date...">
+       					        <script>
+       					            flatpickr(".flatpickr", {
+       					                enableTime: false,
+       					                altInput: true,
+       					                altFormat: "F j, Y",
+       					            });
+       					        </script>
+       					    </div><br>
+
+                           <div class="form-group">
+                               <textarea name="notes" id="input" class="form-control" rows="9" placeholder="Notes"></textarea>
+                           </div><br>
+
+                           <button type="submit" class="btn btn-primary about_btn">Book an Appointment</button>
+       					</div>
+       				
+       				    
+       				</form>
 				</div>
 				<div class="col-md-2"></div>
 			</div>

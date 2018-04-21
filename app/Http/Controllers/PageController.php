@@ -131,7 +131,7 @@ class PageController extends Controller
 
         \Session::flash('flash_message','Appointment Booked Successfully.'); //<--FLASH MESSAGE
 
-            return redirect('/appointments');
+            return back();
     }
 
     public function page()

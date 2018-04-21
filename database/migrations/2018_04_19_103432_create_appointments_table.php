@@ -19,7 +19,7 @@ class CreateAppointmentsTable extends Migration
             $table->string('procedure');
             $table->string('name');
             $table->string('phone');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('date');
             $table->string('notes')->nullable();
             $table->rememberToken();

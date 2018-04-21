@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('header')
-    LSF Admin Dash
+    New Post - Arrow Dental
 @endsection
 
 @section('content')

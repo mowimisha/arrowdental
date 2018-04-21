@@ -6,7 +6,14 @@
 @stop
 
 @section ('content')
-
+  <div class="about-jumbotron">
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-9">
+        <h3>Arrow Dental / Appointments</h3>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
 
 	<section id="about-page">
 		<div class="container">
@@ -36,7 +43,7 @@
                             </div><br>
 
        			            <div class="form-group">
-       			                <input type="text" class="form-control inputs" id="" placeholder="Name" name="name" >
+       			                <input type="text" class="form-control inputs" id="" placeholder="First and last name" name="name" >
        			            </div><br>
        					
        					    <div class="form-group">
@@ -48,7 +55,7 @@
        					    </div><br>
 
        					    <div class="form-group">
-       					      <label for="">I am available on(pick a date and time)</label>
+       					      <label for="">I am available on(pick a date)</label>
        					        <input class="flatpickr" name="date" type="text" placeholder="Select Date...">
        					        <script>
        					            flatpickr(".flatpickr", {
