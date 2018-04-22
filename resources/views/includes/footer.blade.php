@@ -3,16 +3,26 @@
     <section id="sub-footer">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-4 col-sm-12">
-                    <p><strong>Arrow Dental Clinic</strong> &copy; Copyright <?php echo date("Y"); ?></p>
+
+                <div class="col-md-4">
+                    <h3>Connect on Facebook</h3><br>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNairobiPremierDentalClinic%2F&tabs=timeline&width=263&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="263" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> 
                 </div>
 
                 <div class="col-md-4">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farrowdentalkenya%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    <h3>Opening Hours</h3><br>
+                    <ul>
+                        <li>Moday - Friday - 8:00am - 6:00 pm</li>
+                        <li>Saturday - 8:00am - 3:00pm </li>
+                        <li>Sunday & Public Holidays - Closed </li>
+                        <li><i class="fa fa-phone"></i>  0701 859 649 | 020 261 5690 </li>
+                        <li><i class="fa fa-envelope"></i>  info@nairobipremierdental.com </li>
+                    </ul>
                 </div>
 
                 <div class="col-md-4">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farrowdentalkenya%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    <h3>Locate Us</h3><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8166743419365!2d36.8211144143647!3d-1.2838884359847376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d671900001%3A0x90f5e610e51dce23!2sKimathi+House!5e0!3m2!1sen!2ske!4v1508297466567" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe> 
                 </div>
             </div>
         </div>
@@ -31,7 +41,7 @@
 
 
     <script>
-    $('div.alert').not('.alert-important').delay(2000).fadeOut(350);
+       $('div.alert').not('.alert-important').delay(2000).fadeOut(350);
     </script>
 
 
@@ -55,13 +65,14 @@
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s1.async=true;
-    s1.src='https://embed.tawk.to/59ac7538c28eca75e461de63/default';
+    s1.src='https://embed.tawk.to/5a005ba0198bd56b8c039831/default';
     s1.charset='UTF-8';
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
     })();
     </script>
     <!--End of Tawk.to Script-->
+
 
     
     
